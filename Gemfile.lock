@@ -115,6 +115,7 @@ GEM
     factory_bot_rails (6.4.4)
       factory_bot (~> 6.5)
       railties (>= 5.0.0)
+    ffi (1.17.0)
     ffi (1.17.0-x64-mingw-ucrt)
     ffi (1.17.0-x86_64-linux-gnu)
     globalid (1.2.1)
@@ -146,6 +147,7 @@ GEM
     marcel (1.0.4)
     matrix (0.4.2)
     mini_mime (1.1.5)
+    mini_portile2 (2.8.8)
     minitest (5.25.4)
     msgpack (1.7.5)
     net-imap (0.5.2)
@@ -158,6 +160,9 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.4)
+    nokogiri (1.17.2)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     nokogiri (1.17.2-x64-mingw-ucrt)
       racc (~> 1.4)
     nokogiri (1.17.2-x86_64-linux)
@@ -326,6 +331,7 @@ GEM
     zeitwerk (2.7.1)
 
 PLATFORMS
+  ruby
   x64-mingw-ucrt
   x86_64-linux
 
